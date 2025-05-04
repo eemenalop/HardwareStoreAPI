@@ -1,12 +1,106 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Users\\Edgar\\Documents\\projects\\dotnet_backend_class\\billingSystem\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{25C83410-581A-4373-2B11-BCE12ADB8F4B}|billingSystem.csproj|c:\\users\\edgar\\documents\\projects\\dotnet_backend_class\\billingsystem\\controllers\\employeescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{25C83410-581A-4373-2B11-BCE12ADB8F4B}|billingSystem.csproj|solutionrelative:controllers\\employeescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{25C83410-581A-4373-2B11-BCE12ADB8F4B}|billingSystem.csproj|c:\\users\\edgar\\documents\\projects\\dotnet_backend_class\\billingsystem\\controllers\\customerscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{25C83410-581A-4373-2B11-BCE12ADB8F4B}|billingSystem.csproj|solutionrelative:controllers\\customerscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{25C83410-581A-4373-2B11-BCE12ADB8F4B}|billingSystem.csproj|c:\\users\\edgar\\documents\\projects\\dotnet_backend_class\\billingsystem\\services\\employeeservice\\employeeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{25C83410-581A-4373-2B11-BCE12ADB8F4B}|billingSystem.csproj|solutionrelative:services\\employeeservice\\employeeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{25C83410-581A-4373-2B11-BCE12ADB8F4B}|billingSystem.csproj|c:\\users\\edgar\\documents\\projects\\dotnet_backend_class\\billingsystem\\services\\customerservice\\customerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{25C83410-581A-4373-2B11-BCE12ADB8F4B}|billingSystem.csproj|solutionrelative:services\\customerservice\\customerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{25C83410-581A-4373-2B11-BCE12ADB8F4B}|billingSystem.csproj|c:\\users\\edgar\\documents\\projects\\dotnet_backend_class\\billingsystem\\views\\customers\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{25C83410-581A-4373-2B11-BCE12ADB8F4B}|billingSystem.csproj|solutionrelative:views\\customers\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
       "VerticalTabListWidth": 256,
-      "DocumentGroups": []
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "EmployeesController.cs",
+              "DocumentMoniker": "C:\\Users\\Edgar\\Documents\\projects\\dotnet_backend_class\\billingSystem\\Controllers\\EmployeesController.cs",
+              "RelativeDocumentMoniker": "Controllers\\EmployeesController.cs",
+              "ToolTip": "C:\\Users\\Edgar\\Documents\\projects\\dotnet_backend_class\\billingSystem\\Controllers\\EmployeesController.cs",
+              "RelativeToolTip": "Controllers\\EmployeesController.cs",
+              "ViewState": "AgIAAEwAAAAAAAAAAAArwF8AAAA4AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-04T20:57:59.922Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "CustomersController.cs",
+              "DocumentMoniker": "C:\\Users\\Edgar\\Documents\\projects\\dotnet_backend_class\\billingSystem\\Controllers\\CustomersController.cs",
+              "RelativeDocumentMoniker": "Controllers\\CustomersController.cs",
+              "ToolTip": "C:\\Users\\Edgar\\Documents\\projects\\dotnet_backend_class\\billingSystem\\Controllers\\CustomersController.cs",
+              "RelativeToolTip": "Controllers\\CustomersController.cs",
+              "ViewState": "AgIAAEoAAAAAAAAAAAAIwGMAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-04T21:45:09.137Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\Edgar\\Documents\\projects\\dotnet_backend_class\\billingSystem\\Views\\Customers\\Create.cshtml",
+              "RelativeDocumentMoniker": "Views\\Customers\\Create.cshtml",
+              "ToolTip": "C:\\Users\\Edgar\\Documents\\projects\\dotnet_backend_class\\billingSystem\\Views\\Customers\\Create.cshtml",
+              "RelativeToolTip": "Views\\Customers\\Create.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-04T21:44:17.004Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "CustomerService.cs",
+              "DocumentMoniker": "C:\\Users\\Edgar\\Documents\\projects\\dotnet_backend_class\\billingSystem\\Services\\CustomerService\\CustomerService.cs",
+              "RelativeDocumentMoniker": "Services\\CustomerService\\CustomerService.cs",
+              "ToolTip": "C:\\Users\\Edgar\\Documents\\projects\\dotnet_backend_class\\billingSystem\\Services\\CustomerService\\CustomerService.cs",
+              "RelativeToolTip": "Services\\CustomerService\\CustomerService.cs",
+              "ViewState": "AgIAAB0AAAAAAAAAAAAIwC4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-04T21:40:00.956Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "EmployeeService.cs",
+              "DocumentMoniker": "C:\\Users\\Edgar\\Documents\\projects\\dotnet_backend_class\\billingSystem\\Services\\EmployeeService\\EmployeeService.cs",
+              "RelativeDocumentMoniker": "Services\\EmployeeService\\EmployeeService.cs",
+              "ToolTip": "C:\\Users\\Edgar\\Documents\\projects\\dotnet_backend_class\\billingSystem\\Services\\EmployeeService\\EmployeeService.cs",
+              "RelativeToolTip": "Services\\EmployeeService\\EmployeeService.cs",
+              "ViewState": "AgIAABcAAAAAAAAAAAAwwDMAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-04T21:26:17.127Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
     }
   ]
 }

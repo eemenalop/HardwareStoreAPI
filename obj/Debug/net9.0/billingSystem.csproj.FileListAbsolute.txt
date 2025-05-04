@@ -275,3 +275,4 @@ C:\Users\Edgar\Documents\projects\dotnet_backend_class\billingSystem\bin\Debug\n
 C:\Users\Edgar\Documents\projects\dotnet_backend_class\billingSystem\obj\Debug\net9.0\staticwebassets.upToDateCheck.txt
 C:\Users\Edgar\Documents\projects\dotnet_backend_class\billingSystem\obj\Debug\net9.0\billingSystem.RazorAssemblyInfo.cache
 C:\Users\Edgar\Documents\projects\dotnet_backend_class\billingSystem\obj\Debug\net9.0\billingSystem.RazorAssemblyInfo.cs
+C:\Users\Edgar\Documents\projects\dotnet_backend_class\billingSystem\obj\Debug\net9.0\billingSystem.sourcelink.json

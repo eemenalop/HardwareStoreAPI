@@ -2,6 +2,7 @@ using billingSystem.Data;
 using billingSystem.Models;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.OpenApi.Models;
+using billingSystem.Services.EmployeeService;
 using billingSystem.Services.CustomerService;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -22,6 +23,7 @@ builder.Services.AddSwaggerGen(c =>
     });
 });
 builder.Services.AddScoped<ICustomerService, CustomerService>();
+builder.Services.AddScoped<IEmployeeService, EmployeeService>();
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.
