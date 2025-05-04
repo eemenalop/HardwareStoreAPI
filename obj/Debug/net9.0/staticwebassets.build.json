@@ -1,0 +1,12 @@
+{
+  "Version": 1,
+  "Hash": "N30latx4cykusDrDdJEiYkkDLHs7Q/1iBvt41c56nlQ=",
+  "Source": "billingSystem",
+  "BasePath": "_content/billingSystem",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": [],
+  "Endpoints": []
+}
