@@ -44,7 +44,6 @@ namespace billingSystem.Services.CustomerService
             customer.Email = updatedCustomer.email;
             await _context.SaveChangesAsync();
             return customer;
-
         }
 
         public async Task DeleteCustomer(int id)
