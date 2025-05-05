@@ -1,27 +1,25 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Edgar\\Documents\\projects\\dotnet_backend_class\\billingSystem\\billingSystem.csproj": {}
+    "C:\\Users\\Edgar\\Documents\\Projects\\aa_ccharp_mod08\\HardwareStoreAPI\\billingSystem.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Edgar\\Documents\\projects\\dotnet_backend_class\\billingSystem\\billingSystem.csproj": {
+    "C:\\Users\\Edgar\\Documents\\Projects\\aa_ccharp_mod08\\HardwareStoreAPI\\billingSystem.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Edgar\\Documents\\projects\\dotnet_backend_class\\billingSystem\\billingSystem.csproj",
+        "projectUniqueName": "C:\\Users\\Edgar\\Documents\\Projects\\aa_ccharp_mod08\\HardwareStoreAPI\\billingSystem.csproj",
         "projectName": "billingSystem",
-        "projectPath": "C:\\Users\\Edgar\\Documents\\projects\\dotnet_backend_class\\billingSystem\\billingSystem.csproj",
+        "projectPath": "C:\\Users\\Edgar\\Documents\\Projects\\aa_ccharp_mod08\\HardwareStoreAPI\\billingSystem.csproj",
         "packagesPath": "C:\\Users\\Edgar\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Edgar\\Documents\\projects\\dotnet_backend_class\\billingSystem\\obj\\",
+        "outputPath": "C:\\Users\\Edgar\\Documents\\Projects\\aa_ccharp_mod08\\HardwareStoreAPI\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
-          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
           "C:\\Users\\Edgar\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net9.0"

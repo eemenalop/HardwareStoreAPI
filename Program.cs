@@ -6,6 +6,8 @@ using billingSystem.Services.EmployeeService;
 using billingSystem.Services.CustomerService;
 using billingSystem.Services.ItemService;
 using billingSystem.Controllers;
+using billingSystem.Services.InvoiceService;
+using billingSystem.Services.InvoiceDetailService;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -27,6 +29,8 @@ builder.Services.AddSwaggerGen(c =>
 builder.Services.AddScoped<ICustomerService, CustomerService>();
 builder.Services.AddScoped<IEmployeeService, EmployeeService>();
 builder.Services.AddScoped<IItemService, ItemService>();
+builder.Services.AddScoped<IInvoiceService, InvoiceService>();
+builder.Services.AddScoped<IInvoiceDetailService, InvoiceDetailService>();
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.

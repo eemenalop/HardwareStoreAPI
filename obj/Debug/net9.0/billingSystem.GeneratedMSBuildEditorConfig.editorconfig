@@ -17,37 +17,37 @@ build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = billingSystem
 build_property.RootNamespace = billingSystem
-build_property.ProjectDir = C:\Users\Edgar\Documents\projects\dotnet_backend_class\billingSystem\
+build_property.ProjectDir = C:\Users\Edgar\Documents\Projects\aa_ccharp_mod08\HardwareStoreAPI\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.RazorLangVersion = 9.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Users\Edgar\Documents\projects\dotnet_backend_class\billingSystem
+build_property.MSBuildProjectDirectory = C:\Users\Edgar\Documents\Projects\aa_ccharp_mod08\HardwareStoreAPI
 build_property._RazorSourceGeneratorDebug = 
 build_property.EffectiveAnalysisLevelStyle = 9.0
 build_property.EnableCodeStyleSeverity = 
 
-[C:/Users/Edgar/Documents/projects/dotnet_backend_class/billingSystem/Views/Customers/Create.cshtml]
+[C:/Users/Edgar/Documents/Projects/aa_ccharp_mod08/HardwareStoreAPI/Views/Customers/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ3VzdG9tZXJzXENyZWF0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Edgar/Documents/projects/dotnet_backend_class/billingSystem/Views/Customers/Delete.cshtml]
+[C:/Users/Edgar/Documents/Projects/aa_ccharp_mod08/HardwareStoreAPI/Views/Customers/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ3VzdG9tZXJzXERlbGV0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Edgar/Documents/projects/dotnet_backend_class/billingSystem/Views/Customers/Details.cshtml]
+[C:/Users/Edgar/Documents/Projects/aa_ccharp_mod08/HardwareStoreAPI/Views/Customers/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ3VzdG9tZXJzXERldGFpbHMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Edgar/Documents/projects/dotnet_backend_class/billingSystem/Views/Customers/Edit.cshtml]
+[C:/Users/Edgar/Documents/Projects/aa_ccharp_mod08/HardwareStoreAPI/Views/Customers/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ3VzdG9tZXJzXEVkaXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Edgar/Documents/projects/dotnet_backend_class/billingSystem/Views/Customers/Index.cshtml]
+[C:/Users/Edgar/Documents/Projects/aa_ccharp_mod08/HardwareStoreAPI/Views/Customers/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ3VzdG9tZXJzXEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Edgar/Documents/projects/dotnet_backend_class/billingSystem/Views/Shared/_ValidationScriptsPartial.cshtml]
+[C:/Users/Edgar/Documents/Projects/aa_ccharp_mod08/HardwareStoreAPI/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 

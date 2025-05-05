@@ -34,8 +34,6 @@ namespace billingSystem.Services.EmployeeService
             await _context.SaveChangesAsync();
             return employee;
         }
-
-
         public async Task<Employee?> UpdateEmployee(int id, UpdateEmployeeDto updatedEmployee)
         {
             var employee = await GetEmployeeById(id) ?? throw new Exception($"Employee ID: {id} not found");
@@ -44,11 +42,10 @@ namespace billingSystem.Services.EmployeeService
             await _context.SaveChangesAsync();
             return employee;
         }
-
         public async Task DeleteEmployee(int id)
         {
             var employee = await GetEmployeeById(id) ?? throw new Exception($"Employee ID: {id} not found");
-            _context.Employees.Remove(employee);
+            employee.IsActive = false;
             await _context.SaveChangesAsync();
         }
 

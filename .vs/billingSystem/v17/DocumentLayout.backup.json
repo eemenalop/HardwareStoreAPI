@@ -1,18 +1,18 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\Edgar\\Documents\\projects\\dotnet_backend_class\\billingSystem\\",
+  "WorkspaceRootPath": "C:\\Users\\Edgar\\Documents\\Projects\\aa_ccharp_mod08\\HardwareStoreAPI\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{25C83410-581A-4373-2B11-BCE12ADB8F4B}|billingSystem.csproj|c:\\users\\edgar\\documents\\projects\\dotnet_backend_class\\billingsystem\\services\\employeeservice\\employeeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{25C83410-581A-4373-2B11-BCE12ADB8F4B}|billingSystem.csproj|solutionrelative:services\\employeeservice\\employeeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{25C83410-581A-4373-2B11-BCE12ADB8F4B}|billingSystem.csproj|c:\\users\\edgar\\documents\\projects\\aa_ccharp_mod08\\hardwarestoreapi\\services\\invoiceservice\\invoiceservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{25C83410-581A-4373-2B11-BCE12ADB8F4B}|billingSystem.csproj|solutionrelative:services\\invoiceservice\\invoiceservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{25C83410-581A-4373-2B11-BCE12ADB8F4B}|billingSystem.csproj|c:\\users\\edgar\\documents\\projects\\dotnet_backend_class\\billingsystem\\services\\employeeservice\\iemployeeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{25C83410-581A-4373-2B11-BCE12ADB8F4B}|billingSystem.csproj|solutionrelative:services\\employeeservice\\iemployeeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{25C83410-581A-4373-2B11-BCE12ADB8F4B}|billingSystem.csproj|c:\\users\\edgar\\documents\\projects\\aa_ccharp_mod08\\hardwarestoreapi\\services\\invoicedetailservice\\invoicedetailservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{25C83410-581A-4373-2B11-BCE12ADB8F4B}|billingSystem.csproj|solutionrelative:services\\invoicedetailservice\\invoicedetailservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{25C83410-581A-4373-2B11-BCE12ADB8F4B}|billingSystem.csproj|c:\\users\\edgar\\documents\\projects\\dotnet_backend_class\\billingsystem\\controllers\\employeescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{25C83410-581A-4373-2B11-BCE12ADB8F4B}|billingSystem.csproj|solutionrelative:controllers\\employeescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{25C83410-581A-4373-2B11-BCE12ADB8F4B}|billingSystem.csproj|c:\\users\\edgar\\documents\\projects\\aa_ccharp_mod08\\hardwarestoreapi\\services\\invoicedetailservice\\iinvoicedetailservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{25C83410-581A-4373-2B11-BCE12ADB8F4B}|billingSystem.csproj|solutionrelative:services\\invoicedetailservice\\iinvoicedetailservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,45 +22,45 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "EmployeeService.cs",
-              "DocumentMoniker": "C:\\Users\\Edgar\\Documents\\projects\\dotnet_backend_class\\billingSystem\\Services\\EmployeeService\\EmployeeService.cs",
-              "RelativeDocumentMoniker": "Services\\EmployeeService\\EmployeeService.cs",
-              "ToolTip": "C:\\Users\\Edgar\\Documents\\projects\\dotnet_backend_class\\billingSystem\\Services\\EmployeeService\\EmployeeService.cs",
-              "RelativeToolTip": "Services\\EmployeeService\\EmployeeService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAzAAAAAAAAAA==",
+              "DocumentIndex": 1,
+              "Title": "InvoiceDetailService.cs",
+              "DocumentMoniker": "C:\\Users\\Edgar\\Documents\\Projects\\aa_ccharp_mod08\\HardwareStoreAPI\\Services\\InvoiceDetailService\\InvoiceDetailService.cs",
+              "RelativeDocumentMoniker": "Services\\InvoiceDetailService\\InvoiceDetailService.cs",
+              "ToolTip": "C:\\Users\\Edgar\\Documents\\Projects\\aa_ccharp_mod08\\HardwareStoreAPI\\Services\\InvoiceDetailService\\InvoiceDetailService.cs",
+              "RelativeToolTip": "Services\\InvoiceDetailService\\InvoiceDetailService.cs",
+              "ViewState": "AgIAABEAAAAAAAAAAAAgwBwAAAAOAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-04T23:58:38.221Z",
+              "WhenOpened": "2025-05-05T20:40:09.866Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "IEmployeeService.cs",
-              "DocumentMoniker": "C:\\Users\\Edgar\\Documents\\projects\\dotnet_backend_class\\billingSystem\\Services\\EmployeeService\\IEmployeeService.cs",
-              "RelativeDocumentMoniker": "Services\\EmployeeService\\IEmployeeService.cs",
-              "ToolTip": "C:\\Users\\Edgar\\Documents\\projects\\dotnet_backend_class\\billingSystem\\Services\\EmployeeService\\IEmployeeService.cs",
-              "RelativeToolTip": "Services\\EmployeeService\\IEmployeeService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 0,
+              "Title": "InvoiceService.cs",
+              "DocumentMoniker": "C:\\Users\\Edgar\\Documents\\Projects\\aa_ccharp_mod08\\HardwareStoreAPI\\Services\\InvoiceService\\InvoiceService.cs",
+              "RelativeDocumentMoniker": "Services\\InvoiceService\\InvoiceService.cs",
+              "ToolTip": "C:\\Users\\Edgar\\Documents\\Projects\\aa_ccharp_mod08\\HardwareStoreAPI\\Services\\InvoiceService\\InvoiceService.cs",
+              "RelativeToolTip": "Services\\InvoiceService\\InvoiceService.cs",
+              "ViewState": "AgIAACIAAAAAAAAAAAAkwDIAAAAuAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-04T23:58:35.661Z",
+              "WhenOpened": "2025-05-05T20:39:42.616Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "EmployeesController.cs",
-              "DocumentMoniker": "C:\\Users\\Edgar\\Documents\\projects\\dotnet_backend_class\\billingSystem\\Controllers\\EmployeesController.cs",
-              "RelativeDocumentMoniker": "Controllers\\EmployeesController.cs",
-              "ToolTip": "C:\\Users\\Edgar\\Documents\\projects\\dotnet_backend_class\\billingSystem\\Controllers\\EmployeesController.cs",
-              "RelativeToolTip": "Controllers\\EmployeesController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Title": "IInvoiceDetailService.cs",
+              "DocumentMoniker": "C:\\Users\\Edgar\\Documents\\Projects\\aa_ccharp_mod08\\HardwareStoreAPI\\Services\\InvoiceDetailService\\IInvoiceDetailService.cs",
+              "RelativeDocumentMoniker": "Services\\InvoiceDetailService\\IInvoiceDetailService.cs",
+              "ToolTip": "C:\\Users\\Edgar\\Documents\\Projects\\aa_ccharp_mod08\\HardwareStoreAPI\\Services\\InvoiceDetailService\\IInvoiceDetailService.cs",
+              "RelativeToolTip": "Services\\InvoiceDetailService\\IInvoiceDetailService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAA6AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-04T23:58:26.191Z",
+              "WhenOpened": "2025-05-05T20:13:03.807Z",
               "EditorCaption": ""
             }
           ]
