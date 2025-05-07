@@ -1,5 +1,6 @@
 ﻿using billingSystem.Dtos.EmployeeDtos;
 using billingSystem.Models;
+using billingSystem.Dtos.InvoiceDtos;
 
 namespace billingSystem.Services.InvoiceService
 {
@@ -9,9 +10,9 @@ namespace billingSystem.Services.InvoiceService
 
         Task<Invoice?> GetInvoiceById(int id);
 
-        Task<Invoice> CreateInvoice(Invoice newInvoice);
+        Task<Invoice> CreateInvoice(CreateInvoiceDto newInvoice);
 
-        Task<Invoice?> UpdateInvoice(int id, Invoice updatedInvoice);
+        Task<Invoice?> UpdateInvoice(int id, UpdateInvoiceDto updatedInvoice);
 
         Task DeleteInvoice(int id);
     }

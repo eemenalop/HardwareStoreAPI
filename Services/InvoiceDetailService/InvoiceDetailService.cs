@@ -1,14 +1,21 @@
 ﻿using billingSystem.Data;
 using billingSystem.Models;
 using Microsoft.EntityFrameworkCore;
+using billingSystem.Services.InvoiceService;
+using billingSystem.Services.ItemService;
 
 namespace billingSystem.Services.InvoiceDetailService
 {
     public class InvoiceDetailService : IInvoiceDetailService
     {
         private readonly AppDbContext _context;
-        public InvoiceDetailService(AppDbContext context) { 
+        private readonly IInvoiceService _invoiceService;
+        private readonly IItemService _itemService;
+        public InvoiceDetailService(AppDbContext context, IItemService itemService, IInvoiceService invoiceService)
+        {
             _context = context;
+            _itemService = itemService;
+            _invoiceService = invoiceService;
         }
         public async Task<List<InvoicesDetail>> GetAllInvoicesDetail()
         {
@@ -19,8 +26,40 @@ namespace billingSystem.Services.InvoiceDetailService
             var invoiceDetail = _context.InvoicesDetails.FirstOrDefaultAsync(i => i.Id == id);
             return await invoiceDetail;
         }
-        public async Task<InvoicesDetail> CreateInvoicesDetail(InvoicesDetail newInvoiceDetail)
+        public async Task<SimpleResponse<InvoicesDetail>> CreateInvoicesDetail(CreateInvoiceDetailDto newInvoiceDetail)
         {
+            var invoiceId = await _invoiceService.GetInvoiceById(newInvoiceDetail.InvoiceId);
+            if (invoiceId == null)
+            {
+                return new SimpleResponse<InvoicesDetail>
+                {
+                    Success = false,
+                    Message = "Invoice not found",
+                    Data = null
+                };
+            }
+
+            var itemId = await _itemService.GetItemById(newInvoiceDetail.ItemId);
+            if (itemId == null)
+            {
+                return new SimpleResponse<InvoicesDetail>
+                {
+                    Success = false,
+                    Message = "Item not found",
+                    Data = null
+                };
+            }
+
+            if (itemId.StockAvailable < newInvoiceDetail.Quantity)
+            {
+                return new SimpleResponse<InvoicesDetail>
+                {
+                    Success = false,
+                    Message = "Not enough stock available",
+                    Data = null
+                };
+            }
+
             var invoiceDetail = new InvoicesDetail
             {
                 InvoiceId = newInvoiceDetail.InvoiceId,
@@ -29,10 +68,20 @@ namespace billingSystem.Services.InvoiceDetailService
             };
 
             _context.InvoicesDetails.Add(invoiceDetail);
+            invoiceId.Subtotal += itemId.Price * newInvoiceDetail.Quantity;
+            invoiceId.TotalAmount = invoiceId.Subtotal * 1.18m;
+            itemId.StockAvailable -= newInvoiceDetail.Quantity;
+            _context.Items.Update(itemId);
             await _context.SaveChangesAsync();
-            return invoiceDetail;
+
+            return new SimpleResponse<InvoicesDetail>
+            {
+                Success = true,
+                Message = "Invoice detail created successfully",
+                Data = invoiceDetail
+            };
         }
-        public async Task<InvoicesDetail?> UpdateInvoicesDetail(int id, InvoicesDetail updatedInvoicesDetail)
+        public async Task<InvoicesDetail?> UpdateInvoicesDetail(int id, UpdateInvoiceDetailDto updatedInvoicesDetail)
         {
             var invoiceDetail = await GetInvoicesDetailById(id) ?? throw new Exception($"InvoiceDetail ID: {id} not found");
             invoiceDetail.InvoiceId = updatedInvoicesDetail.InvoiceId;

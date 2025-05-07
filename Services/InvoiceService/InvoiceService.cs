@@ -1,6 +1,7 @@
 ﻿using billingSystem.Data;
 using billingSystem.Models;
 using Microsoft.EntityFrameworkCore;
+using billingSystem.Dtos.InvoiceDtos;
 
 namespace billingSystem.Services.InvoiceService
 {
@@ -18,11 +19,11 @@ namespace billingSystem.Services.InvoiceService
         }
         public async Task<Invoice?> GetInvoiceById(int id)
         {
-            var invoice = _context.Invoices.FirstOrDefaultAsync(i => i.Id == id);
+            var invoice = _context.Invoices.Include(i => i.InvoicesDetails).FirstOrDefaultAsync(i => i.Id == id);
             return await invoice;
         }
 
-        public async Task<Invoice> CreateInvoice(Invoice newInvoice)
+        public async Task<Invoice> CreateInvoice(CreateInvoiceDto newInvoice)
         {
             var invoice = new Invoice
             {
@@ -39,7 +40,7 @@ namespace billingSystem.Services.InvoiceService
             return invoice;
 
         }
-        public async Task<Invoice?> UpdateInvoice(int id, Invoice updatedInvoice)
+        public async Task<Invoice?> UpdateInvoice(int id, UpdateInvoiceDto updatedInvoice)
         {
             var invoice = await GetInvoiceById(id) ?? throw new Exception($"Invoice ID: {id} not found");
             invoice.Date = updatedInvoice.Date;

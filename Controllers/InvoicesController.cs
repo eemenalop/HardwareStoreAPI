@@ -10,6 +10,7 @@ using billingSystem.Models;
 using billingSystem.Dtos.ItemDtos;
 using billingSystem.Services.ItemService;
 using billingSystem.Services.InvoiceService;
+using billingSystem.Dtos.InvoiceDtos;
 
 namespace billingSystem.Controllers
 {
@@ -26,7 +27,7 @@ namespace billingSystem.Controllers
 
         // GET: api/invoice
         [HttpGet]
-        public async Task<ActionResult<IEnumerable<Item>>> GetAllInvoices()
+        public async Task<ActionResult<IEnumerable<Invoice>>> GetAllInvoices()
         {
             try
             {
@@ -42,7 +43,7 @@ namespace billingSystem.Controllers
 
         // GET: api/invoice/5
         [HttpGet("{id}")]
-        public async Task<ActionResult<Item>> GetInvoiceById(int id)
+        public async Task<ActionResult<Invoice>> GetInvoiceById(int id)
         {
             try
             {
@@ -63,7 +64,7 @@ namespace billingSystem.Controllers
 
         // POST: api/invoice
         [HttpPost]
-        public async Task<ActionResult<Item>> CreateInvoice(Invoice newInvoice)
+        public async Task<ActionResult<Invoice>> CreateInvoice(CreateInvoiceDto newInvoice)
         {
             try
             {
@@ -79,7 +80,7 @@ namespace billingSystem.Controllers
 
         // PUT: api/invoice/5
         [HttpPut("{id}")]
-        public async Task<IActionResult> UpdateInvoice(int id, Invoice updatedInvoice)
+        public async Task<IActionResult> UpdateInvoice(int id, UpdateInvoiceDto updatedInvoice)
         {
             try
             {

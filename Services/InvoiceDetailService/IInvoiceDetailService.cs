@@ -8,9 +8,9 @@ namespace billingSystem.Services.InvoiceDetailService
 
         Task<InvoicesDetail?> GetInvoicesDetailById(int id);
 
-        Task<InvoicesDetail> CreateInvoicesDetail(InvoicesDetail newInvoiceDetail);
+        Task<SimpleResponse<InvoicesDetail>> CreateInvoicesDetail(CreateInvoiceDetailDto newInvoiceDetail);
 
-        Task<InvoicesDetail?> UpdateInvoicesDetail(int id, InvoicesDetail updatedInvoicesDetail);
+        Task<InvoicesDetail?> UpdateInvoicesDetail(int id, UpdateInvoiceDetailDto updatedInvoicesDetail);
 
         Task DeleteInvoicesDetail(int id);
     }
