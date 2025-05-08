@@ -9,6 +9,7 @@ using billingSystem.Data;
 using billingSystem.Models;
 using billingSystem.Services.CustomerService;
 using billingSystem.Dtos.CustomersDtos;
+using Microsoft.AspNetCore.Authorization;
 
 namespace billingSystem.Controllers
 {
@@ -26,6 +27,7 @@ namespace billingSystem.Controllers
 
         // GET All Customers
         [HttpGet]
+        [Authorize]
         public async Task<ActionResult<IEnumerable<Customer>>> GetAllCustomers()
         {
             try
@@ -34,10 +36,11 @@ namespace billingSystem.Controllers
                 return Ok(customers);
             }
 
-            catch (Exception ex) { 
+            catch (Exception ex)
+            {
                 return BadRequest(ex.Message);
             }
-            
+
         }
 
         //Get Customer by ID
@@ -59,7 +62,7 @@ namespace billingSystem.Controllers
             {
                 return BadRequest(ex.Message);
             }
-            
+
         }
         [HttpPost]
         public async Task<ActionResult<Customer>> CreateCustomer(CreateCustomerDto newCustomer)
@@ -67,10 +70,11 @@ namespace billingSystem.Controllers
             try
             {
                 var customer = await _customerService.CreateCustomer(newCustomer);
-                return CreatedAtAction(nameof(GetCustomerById), new {id = customer.Id}, customer);
+                return CreatedAtAction(nameof(GetCustomerById), new { id = customer.Id }, customer);
             }
-            catch (Exception ex) {
-                
+            catch (Exception ex)
+            {
+
                 return BadRequest(ex.Message);
             }
         }
@@ -85,7 +89,8 @@ namespace billingSystem.Controllers
                 var customer = await _customerService.UpdateCustomer(id, updatedCustomer);
                 return Ok(customer);
             }
-            catch (Exception ex) {
+            catch (Exception ex)
+            {
                 return BadRequest(ex.Message);
             }
         }
@@ -99,7 +104,8 @@ namespace billingSystem.Controllers
                 await _customerService.DeleteCustomer(id);
                 return NoContent();
             }
-            catch (Exception ex) { 
+            catch (Exception ex)
+            {
                 return BadRequest(ex.Message);
             }
         }

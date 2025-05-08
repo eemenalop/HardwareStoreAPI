@@ -272,7 +272,6 @@ C:\Users\Edgar\Documents\projects\dotnet_backend_class\billingSystem\bin\Debug\n
 C:\Users\Edgar\Documents\projects\dotnet_backend_class\billingSystem\bin\Debug\net9.0\tr\Microsoft.CodeAnalysis.Scripting.resources.dll
 C:\Users\Edgar\Documents\projects\dotnet_backend_class\billingSystem\bin\Debug\net9.0\zh-Hans\Microsoft.CodeAnalysis.Scripting.resources.dll
 C:\Users\Edgar\Documents\projects\dotnet_backend_class\billingSystem\bin\Debug\net9.0\zh-Hant\Microsoft.CodeAnalysis.Scripting.resources.dll
-C:\Users\Edgar\Documents\projects\dotnet_backend_class\billingSystem\obj\Debug\net9.0\staticwebassets.upToDateCheck.txt
 C:\Users\Edgar\Documents\projects\dotnet_backend_class\billingSystem\obj\Debug\net9.0\billingSystem.RazorAssemblyInfo.cache
 C:\Users\Edgar\Documents\projects\dotnet_backend_class\billingSystem\obj\Debug\net9.0\billingSystem.RazorAssemblyInfo.cs
 C:\Users\Edgar\Documents\projects\dotnet_backend_class\billingSystem\obj\Debug\net9.0\billingSystem.sourcelink.json
@@ -553,3 +552,4 @@ C:\Users\Edgar\Documents\Projects\aa_ccharp_mod08\HardwareStoreAPI\obj\Debug\net
 C:\Users\Edgar\Documents\Projects\aa_ccharp_mod08\HardwareStoreAPI\obj\Debug\net9.0\billingSystem.pdb
 C:\Users\Edgar\Documents\Projects\aa_ccharp_mod08\HardwareStoreAPI\obj\Debug\net9.0\billingSystem.genruntimeconfig.cache
 C:\Users\Edgar\Documents\Projects\aa_ccharp_mod08\HardwareStoreAPI\obj\Debug\net9.0\ref\billingSystem.dll
+C:\Users\Edgar\Documents\projects\dotnet_backend_class\billingSystem\bin\Debug\net9.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll

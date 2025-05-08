@@ -1,17 +1,17 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\Edgar\\Documents\\Projects\\aa_ccharp_mod08\\HardwareStoreAPI\\",
+  "WorkspaceRootPath": "C:\\Users\\Edgar\\Documents\\projects\\dotnet_backend_class\\billingSystem\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{25C83410-581A-4373-2B11-BCE12ADB8F4B}|billingSystem.csproj|c:\\users\\edgar\\documents\\projects\\aa_ccharp_mod08\\hardwarestoreapi\\services\\invoiceservice\\invoiceservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{25C83410-581A-4373-2B11-BCE12ADB8F4B}|billingSystem.csproj|c:\\users\\edgar\\documents\\projects\\dotnet_backend_class\\billingsystem\\services\\invoiceservice\\invoiceservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{25C83410-581A-4373-2B11-BCE12ADB8F4B}|billingSystem.csproj|solutionrelative:services\\invoiceservice\\invoiceservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{25C83410-581A-4373-2B11-BCE12ADB8F4B}|billingSystem.csproj|c:\\users\\edgar\\documents\\projects\\aa_ccharp_mod08\\hardwarestoreapi\\services\\invoicedetailservice\\invoicedetailservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{25C83410-581A-4373-2B11-BCE12ADB8F4B}|billingSystem.csproj|c:\\users\\edgar\\documents\\projects\\dotnet_backend_class\\billingsystem\\services\\invoicedetailservice\\invoicedetailservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{25C83410-581A-4373-2B11-BCE12ADB8F4B}|billingSystem.csproj|solutionrelative:services\\invoicedetailservice\\invoicedetailservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{25C83410-581A-4373-2B11-BCE12ADB8F4B}|billingSystem.csproj|c:\\users\\edgar\\documents\\projects\\aa_ccharp_mod08\\hardwarestoreapi\\services\\invoicedetailservice\\iinvoicedetailservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{25C83410-581A-4373-2B11-BCE12ADB8F4B}|billingSystem.csproj|c:\\users\\edgar\\documents\\projects\\dotnet_backend_class\\billingsystem\\services\\invoicedetailservice\\iinvoicedetailservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{25C83410-581A-4373-2B11-BCE12ADB8F4B}|billingSystem.csproj|solutionrelative:services\\invoicedetailservice\\iinvoicedetailservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -28,22 +28,21 @@
               "$type": "Document",
               "DocumentIndex": 1,
               "Title": "InvoiceDetailService.cs",
-              "DocumentMoniker": "C:\\Users\\Edgar\\Documents\\Projects\\aa_ccharp_mod08\\HardwareStoreAPI\\Services\\InvoiceDetailService\\InvoiceDetailService.cs",
+              "DocumentMoniker": "C:\\Users\\Edgar\\Documents\\projects\\dotnet_backend_class\\billingSystem\\Services\\InvoiceDetailService\\InvoiceDetailService.cs",
               "RelativeDocumentMoniker": "Services\\InvoiceDetailService\\InvoiceDetailService.cs",
-              "ToolTip": "C:\\Users\\Edgar\\Documents\\Projects\\aa_ccharp_mod08\\HardwareStoreAPI\\Services\\InvoiceDetailService\\InvoiceDetailService.cs",
+              "ToolTip": "C:\\Users\\Edgar\\Documents\\projects\\dotnet_backend_class\\billingSystem\\Services\\InvoiceDetailService\\InvoiceDetailService.cs",
               "RelativeToolTip": "Services\\InvoiceDetailService\\InvoiceDetailService.cs",
               "ViewState": "AgIAABEAAAAAAAAAAAAgwBwAAAAOAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-05T20:40:09.866Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-05T20:40:09.866Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "InvoiceService.cs",
-              "DocumentMoniker": "C:\\Users\\Edgar\\Documents\\Projects\\aa_ccharp_mod08\\HardwareStoreAPI\\Services\\InvoiceService\\InvoiceService.cs",
+              "DocumentMoniker": "C:\\Users\\Edgar\\Documents\\projects\\dotnet_backend_class\\billingSystem\\Services\\InvoiceService\\InvoiceService.cs",
               "RelativeDocumentMoniker": "Services\\InvoiceService\\InvoiceService.cs",
-              "ToolTip": "C:\\Users\\Edgar\\Documents\\Projects\\aa_ccharp_mod08\\HardwareStoreAPI\\Services\\InvoiceService\\InvoiceService.cs",
+              "ToolTip": "C:\\Users\\Edgar\\Documents\\projects\\dotnet_backend_class\\billingSystem\\Services\\InvoiceService\\InvoiceService.cs",
               "RelativeToolTip": "Services\\InvoiceService\\InvoiceService.cs",
               "ViewState": "AgIAACIAAAAAAAAAAAAkwCoAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -54,14 +53,13 @@
               "$type": "Document",
               "DocumentIndex": 2,
               "Title": "IInvoiceDetailService.cs",
-              "DocumentMoniker": "C:\\Users\\Edgar\\Documents\\Projects\\aa_ccharp_mod08\\HardwareStoreAPI\\Services\\InvoiceDetailService\\IInvoiceDetailService.cs",
+              "DocumentMoniker": "C:\\Users\\Edgar\\Documents\\projects\\dotnet_backend_class\\billingSystem\\Services\\InvoiceDetailService\\IInvoiceDetailService.cs",
               "RelativeDocumentMoniker": "Services\\InvoiceDetailService\\IInvoiceDetailService.cs",
-              "ToolTip": "C:\\Users\\Edgar\\Documents\\Projects\\aa_ccharp_mod08\\HardwareStoreAPI\\Services\\InvoiceDetailService\\IInvoiceDetailService.cs",
+              "ToolTip": "C:\\Users\\Edgar\\Documents\\projects\\dotnet_backend_class\\billingSystem\\Services\\InvoiceDetailService\\IInvoiceDetailService.cs",
               "RelativeToolTip": "Services\\InvoiceDetailService\\IInvoiceDetailService.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAA6AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-05T20:13:03.807Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-05T20:13:03.807Z"
             }
           ]
         }
