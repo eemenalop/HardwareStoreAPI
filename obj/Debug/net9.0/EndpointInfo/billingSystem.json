@@ -1,10 +1,41 @@
 {
   "openapi": "3.0.4",
   "info": {
-    "title": "Billing API",
+    "title": "Tu API",
     "version": "v1"
   },
   "paths": {
+    "/api/auth/register": {
+      "post": {
+        "tags": [
+          "Auth"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/LoginDto"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/LoginDto"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/LoginDto"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
     "/api/Customers": {
       "get": {
         "tags": [
@@ -388,7 +419,7 @@
                 "schema": {
                   "type": "array",
                   "items": {
-                    "$ref": "#/components/schemas/Item"
+                    "$ref": "#/components/schemas/Invoice"
                   }
                 }
               },
@@ -396,7 +427,7 @@
                 "schema": {
                   "type": "array",
                   "items": {
-                    "$ref": "#/components/schemas/Item"
+                    "$ref": "#/components/schemas/Invoice"
                   }
                 }
               },
@@ -404,7 +435,7 @@
                 "schema": {
                   "type": "array",
                   "items": {
-                    "$ref": "#/components/schemas/Item"
+                    "$ref": "#/components/schemas/Invoice"
                   }
                 }
               }
@@ -420,17 +451,17 @@
           "content": {
             "application/json": {
               "schema": {
-                "$ref": "#/components/schemas/Invoice"
+                "$ref": "#/components/schemas/CreateInvoiceDto"
               }
             },
             "text/json": {
               "schema": {
-                "$ref": "#/components/schemas/Invoice"
+                "$ref": "#/components/schemas/CreateInvoiceDto"
               }
             },
             "application/*+json": {
               "schema": {
-                "$ref": "#/components/schemas/Invoice"
+                "$ref": "#/components/schemas/CreateInvoiceDto"
               }
             }
           }
@@ -441,17 +472,17 @@
             "content": {
               "text/plain": {
                 "schema": {
-                  "$ref": "#/components/schemas/Item"
+                  "$ref": "#/components/schemas/Invoice"
                 }
               },
               "application/json": {
                 "schema": {
-                  "$ref": "#/components/schemas/Item"
+                  "$ref": "#/components/schemas/Invoice"
                 }
               },
               "text/json": {
                 "schema": {
-                  "$ref": "#/components/schemas/Item"
+                  "$ref": "#/components/schemas/Invoice"
                 }
               }
             }
@@ -481,17 +512,17 @@
             "content": {
               "text/plain": {
                 "schema": {
-                  "$ref": "#/components/schemas/Item"
+                  "$ref": "#/components/schemas/Invoice"
                 }
               },
               "application/json": {
                 "schema": {
-                  "$ref": "#/components/schemas/Item"
+                  "$ref": "#/components/schemas/Invoice"
                 }
               },
               "text/json": {
                 "schema": {
-                  "$ref": "#/components/schemas/Item"
+                  "$ref": "#/components/schemas/Invoice"
                 }
               }
             }
@@ -517,17 +548,17 @@
           "content": {
             "application/json": {
               "schema": {
-                "$ref": "#/components/schemas/Invoice"
+                "$ref": "#/components/schemas/UpdateInvoiceDto"
               }
             },
             "text/json": {
               "schema": {
-                "$ref": "#/components/schemas/Invoice"
+                "$ref": "#/components/schemas/UpdateInvoiceDto"
               }
             },
             "application/*+json": {
               "schema": {
-                "$ref": "#/components/schemas/Invoice"
+                "$ref": "#/components/schemas/UpdateInvoiceDto"
               }
             }
           }
@@ -573,7 +604,7 @@
                 "schema": {
                   "type": "array",
                   "items": {
-                    "$ref": "#/components/schemas/Item"
+                    "$ref": "#/components/schemas/InvoicesDetail"
                   }
                 }
               },
@@ -581,7 +612,7 @@
                 "schema": {
                   "type": "array",
                   "items": {
-                    "$ref": "#/components/schemas/Item"
+                    "$ref": "#/components/schemas/InvoicesDetail"
                   }
                 }
               },
@@ -589,7 +620,7 @@
                 "schema": {
                   "type": "array",
                   "items": {
-                    "$ref": "#/components/schemas/Item"
+                    "$ref": "#/components/schemas/InvoicesDetail"
                   }
                 }
               }
@@ -605,17 +636,17 @@
           "content": {
             "application/json": {
               "schema": {
-                "$ref": "#/components/schemas/InvoicesDetail"
+                "$ref": "#/components/schemas/CreateInvoiceDetailDto"
               }
             },
             "text/json": {
               "schema": {
-                "$ref": "#/components/schemas/InvoicesDetail"
+                "$ref": "#/components/schemas/CreateInvoiceDetailDto"
               }
             },
             "application/*+json": {
               "schema": {
-                "$ref": "#/components/schemas/InvoicesDetail"
+                "$ref": "#/components/schemas/CreateInvoiceDetailDto"
               }
             }
           }
@@ -626,17 +657,17 @@
             "content": {
               "text/plain": {
                 "schema": {
-                  "$ref": "#/components/schemas/Item"
+                  "$ref": "#/components/schemas/InvoicesDetail"
                 }
               },
               "application/json": {
                 "schema": {
-                  "$ref": "#/components/schemas/Item"
+                  "$ref": "#/components/schemas/InvoicesDetail"
                 }
               },
               "text/json": {
                 "schema": {
-                  "$ref": "#/components/schemas/Item"
+                  "$ref": "#/components/schemas/InvoicesDetail"
                 }
               }
             }
@@ -666,17 +697,17 @@
             "content": {
               "text/plain": {
                 "schema": {
-                  "$ref": "#/components/schemas/Item"
+                  "$ref": "#/components/schemas/InvoicesDetail"
                 }
               },
               "application/json": {
                 "schema": {
-                  "$ref": "#/components/schemas/Item"
+                  "$ref": "#/components/schemas/InvoicesDetail"
                 }
               },
               "text/json": {
                 "schema": {
-                  "$ref": "#/components/schemas/Item"
+                  "$ref": "#/components/schemas/InvoicesDetail"
                 }
               }
             }
@@ -702,17 +733,17 @@
           "content": {
             "application/json": {
               "schema": {
-                "$ref": "#/components/schemas/InvoicesDetail"
+                "$ref": "#/components/schemas/UpdateInvoiceDetailDto"
               }
             },
             "text/json": {
               "schema": {
-                "$ref": "#/components/schemas/InvoicesDetail"
+                "$ref": "#/components/schemas/UpdateInvoiceDetailDto"
               }
             },
             "application/*+json": {
               "schema": {
-                "$ref": "#/components/schemas/InvoicesDetail"
+                "$ref": "#/components/schemas/UpdateInvoiceDetailDto"
               }
             }
           }
@@ -929,6 +960,131 @@
           }
         }
       }
+    },
+    "/api/users": {
+      "get": {
+        "tags": [
+          "User"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      },
+      "post": {
+        "tags": [
+          "User"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/Users"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/Users"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/Users"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/users/{id}": {
+      "get": {
+        "tags": [
+          "User"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      },
+      "put": {
+        "tags": [
+          "User"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/Users"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/Users"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/Users"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      },
+      "delete": {
+        "tags": [
+          "User"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
     }
   },
   "components": {
@@ -956,6 +1112,53 @@
           },
           "isActive": {
             "type": "boolean"
+          }
+        },
+        "additionalProperties": false
+      },
+      "CreateInvoiceDetailDto": {
+        "type": "object",
+        "properties": {
+          "invoiceId": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "itemId": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "quantity": {
+            "type": "integer",
+            "format": "int32"
+          }
+        },
+        "additionalProperties": false
+      },
+      "CreateInvoiceDto": {
+        "type": "object",
+        "properties": {
+          "date": {
+            "type": "string",
+            "format": "date-time"
+          },
+          "isCanceled": {
+            "type": "boolean"
+          },
+          "customerId": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "employeeId": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "subtotal": {
+            "type": "number",
+            "format": "double"
+          },
+          "totalAmount": {
+            "type": "number",
+            "format": "double"
           }
         },
         "additionalProperties": false
@@ -992,13 +1195,6 @@
           "email": {
             "type": "string",
             "nullable": true
-          },
-          "invoices": {
-            "type": "array",
-            "items": {
-              "$ref": "#/components/schemas/Invoice"
-            },
-            "nullable": true
           }
         },
         "additionalProperties": false
@@ -1016,13 +1212,6 @@
           },
           "isActive": {
             "type": "boolean"
-          },
-          "invoices": {
-            "type": "array",
-            "items": {
-              "$ref": "#/components/schemas/Invoice"
-            },
-            "nullable": true
           }
         },
         "additionalProperties": false
@@ -1062,13 +1251,6 @@
           },
           "employee": {
             "$ref": "#/components/schemas/Employee"
-          },
-          "invoicesDetails": {
-            "type": "array",
-            "items": {
-              "$ref": "#/components/schemas/InvoicesDetail"
-            },
-            "nullable": true
           }
         },
         "additionalProperties": false
@@ -1091,12 +1273,6 @@
           "quantity": {
             "type": "integer",
             "format": "int32"
-          },
-          "invoice": {
-            "$ref": "#/components/schemas/Invoice"
-          },
-          "item": {
-            "$ref": "#/components/schemas/Item"
           }
         },
         "additionalProperties": false
@@ -1119,12 +1295,19 @@
           "stockAvailable": {
             "type": "integer",
             "format": "int32"
+          }
+        },
+        "additionalProperties": false
+      },
+      "LoginDto": {
+        "type": "object",
+        "properties": {
+          "username": {
+            "type": "string",
+            "nullable": true
           },
-          "invoicesDetails": {
-            "type": "array",
-            "items": {
-              "$ref": "#/components/schemas/InvoicesDetail"
-            },
+          "password": {
+            "type": "string",
             "nullable": true
           }
         },
@@ -1157,6 +1340,53 @@
         },
         "additionalProperties": false
       },
+      "UpdateInvoiceDetailDto": {
+        "type": "object",
+        "properties": {
+          "invoiceId": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "itemId": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "quantity": {
+            "type": "integer",
+            "format": "int32"
+          }
+        },
+        "additionalProperties": false
+      },
+      "UpdateInvoiceDto": {
+        "type": "object",
+        "properties": {
+          "date": {
+            "type": "string",
+            "format": "date-time"
+          },
+          "isCanceled": {
+            "type": "boolean"
+          },
+          "customerId": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "employeeId": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "subtotal": {
+            "type": "number",
+            "format": "double"
+          },
+          "totalAmount": {
+            "type": "number",
+            "format": "double"
+          }
+        },
+        "additionalProperties": false
+      },
       "UpdateItemDto": {
         "type": "object",
         "properties": {
@@ -1174,7 +1404,42 @@
           }
         },
         "additionalProperties": false
+      },
+      "Users": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "username": {
+            "type": "string",
+            "nullable": true
+          },
+          "passwordHash": {
+            "type": "string",
+            "nullable": true
+          },
+          "role": {
+            "type": "string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      }
+    },
+    "securitySchemes": {
+      "Bearer": {
+        "type": "http",
+        "description": "Ingresa tu token JWT en este formato: Bearer {tu_token}",
+        "scheme": "Bearer",
+        "bearerFormat": "JWT"
       }
     }
-  }
+  },
+  "security": [
+    {
+      "Bearer": [ ]
+    }
+  ]
 }

@@ -11,6 +11,7 @@ using billingSystem.Dtos.ItemDtos;
 using billingSystem.Services.ItemService;
 using billingSystem.Services.InvoiceService;
 using billingSystem.Dtos.InvoiceDtos;
+using Microsoft.AspNetCore.Authorization;
 
 namespace billingSystem.Controllers
 {
@@ -96,6 +97,7 @@ namespace billingSystem.Controllers
 
         // DELETE: api/invoice/5
         [HttpDelete("{id}")]
+        [Authorize]
         public async Task<IActionResult> DeleteInvoice(int id)
         {
             try

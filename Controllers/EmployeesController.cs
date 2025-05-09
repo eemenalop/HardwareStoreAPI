@@ -10,6 +10,7 @@ using billingSystem.Models;
 using billingSystem.Services.EmployeeService;
 using billingSystem.Dtos.EmployeeDtos;
 using billingSystem.Dtos.CustomersDtos;
+using Microsoft.AspNetCore.Authorization;
 
 namespace billingSystem.Controllers
 {
@@ -89,6 +90,7 @@ namespace billingSystem.Controllers
 
         // DELETE: Delete Employee by ID
         [HttpDelete("{id}")]
+        [Authorize]
         public async Task<IActionResult> DeleteEmployee(int id)
         {
             try

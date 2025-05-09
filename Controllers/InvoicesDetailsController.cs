@@ -10,6 +10,7 @@ using billingSystem.Models;
 using billingSystem.Services.InvoiceService;
 using billingSystem.Services.InvoiceDetailService;
 using billingSystem.Services.ItemService;
+using Microsoft.AspNetCore.Authorization;
 
 namespace billingSystem.Controllers
 {
@@ -103,6 +104,7 @@ namespace billingSystem.Controllers
 
         // DELETE: api/invoiceDetail/5
         [HttpDelete("{id}")]
+        [Authorize]
         public async Task<IActionResult> DeleteInvoicesDetail(int id)
         {
             try

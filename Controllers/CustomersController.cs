@@ -27,7 +27,6 @@ namespace billingSystem.Controllers
 
         // GET All Customers
         [HttpGet]
-        [Authorize]
         public async Task<ActionResult<IEnumerable<Customer>>> GetAllCustomers()
         {
             try
@@ -97,6 +96,7 @@ namespace billingSystem.Controllers
 
         // DELETE: Delete Customer by ID
         [HttpDelete("{id}")]
+        [Authorize(Roles = "Admin")]
         public async Task<IActionResult> DeleteCustomer(int id)
         {
             try
